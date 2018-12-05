@@ -1,0 +1,64 @@
+body {
+  background-color: #8FBC8F;
+}
+
+.text {
+  text-align: center;
+font-family: 'MedievalSharp';
+}
+/*.container{
+  border-style: dashed;
+  border-radius: 1px;
+  border-width: 2px;
+  }*/
+
+/*.player {
+  text-align: left;
+  border-style: solid;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 25%;
+  width: 50%;
+}*/
+.image {
+  width: 70%;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 10px;
+    margin-left: 25%;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp';
+
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#gameInput {
+  font-family: 'MedievalSharp';
+  text-align: center;
+  font-size: 14px;
+}
