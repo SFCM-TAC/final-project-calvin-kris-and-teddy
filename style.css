@@ -21,11 +21,12 @@ font-family: 'MedievalSharp';
   margin-left: 25%;
   width: 50%;
 }*/
-.image {
+#image {
   width: 70%;
   display: block;
    margin-left: auto;
    margin-right: auto;
+   border-radius: 4px;
 }
 
 input[type=text], select {
