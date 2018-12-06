@@ -86,20 +86,20 @@ function updatePage(){
   }else if (xPosition == 3 && yPosition == 3){
     //capital city
     document.getElementById("gameInput").innerHTML = "Look at that big freaking castle!!!";
-  }else if (xPosition == 1 && yPosition == 3){
+  }else if (xPosition == 5 && yPosition == 4){
     //lake city
     document.getElementById("gameInput").innerHTML = "Holy shit! A lake with a city on it? Wow!!!";
-  }else if (xPosition == 1 && yPosition == 3){
+  }else if (xPosition == 4 && yPosition == 7){
     //cliff city
     document.getElementById("gameInput").innerHTML = "How do all those peoples' houses not fall off that big-ass clif!?";
     document.getElementById("image").src = "assets/cliffVillage.png";
-  }else if (xPosition == 1 && yPosition == 3){
+  }else if (xPosition == 8 && yPosition == 4){
     //coastal city
     document.getElementById("gameInput").innerHTML = "That city's full of elves who speak hungarian! Inn't that wild!?";
-  }else if (xPosition == 1 && yPosition == 3){
+  }else if (xPosition == 2 && yPosition == 5){
     //mountain city
     document.getElementById("gameInput").innerHTML = "It was not easy to get here. Too bad this towns just full of old dudes in the snow!!!";
-  }else if (xPosition == 1 && yPosition == 3){
+  }else if (xPosition == 6 && yPosition == 7){
     //boss tile
     document.getElementById("gameInput").innerHTML = "Jeepers creepers, that's a big dragon!!!";
   }
