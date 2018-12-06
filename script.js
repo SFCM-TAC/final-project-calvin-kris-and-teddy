@@ -26,39 +26,22 @@ function move(direction){
   console.log ("xPosition = " + xPosition);
 }
 
-function north(){
-  direction = "north";
-  move(direction);
-}
-function west(){
-  direction = "west";
-  move(direction);
-}
-function south(){
-  direction = "south";
-  move(direction);
-}
-function east(){
-  direction = "east";
-  move(direction);
-}
-
 document.addEventListener('keypress', function (e) {
     if (e.keyCode == 13) {
         console.log("Enter!");
         var result = document.getElementById("playerInput").value;
-        switch (result){
-          case "north":
-          north();
-          break;
-          case "west":
-          west();
-          break;
-          case "south":
-          south();
-          break;
-          case "east":
-          east();
+        if (result.includes("north")){
+          direction = "north";
+          move(direction);
+        }else if (result.includes("west")){
+          direction = "west";
+          move(direction);
+        }else if (result.includes("south")){
+          direction = "south";
+          move(direction);
+        }else if (result.includes("east")){
+          direction = "east";
+          move(direction);
         }
         document.getElementById("playerInput").value = "";
     }
