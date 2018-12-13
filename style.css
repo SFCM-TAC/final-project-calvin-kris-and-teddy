@@ -6,6 +6,9 @@ body {
   text-align: center;
 font-family: 'MedievalSharp';
 }
+/* .header {
+  font-size: 30px;
+} */
 /*.container{
   border-style: dashed;
   border-radius: 1px;
@@ -21,23 +24,55 @@ font-family: 'MedievalSharp';
   margin-left: 25%;
   width: 50%;
 }*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  padding: 5px;
+}
+.left {
+  width: 10%;
+}
+.right {
+  width: 90%;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  /* display: table; */
+}
+
+ .row {
+  display: flex;
+}
+
+/* .column {
+  flex: 100%;
+  padding: 5px;
+} */
+
+.menu {
+  margin-left: 80%;
+  width: 50%;
+}
+
 #image {
   width: 70%;
   display: block;
-   margin-left: auto;
+   margin-left: 10%;
    margin-right: auto;
-   border-radius: 4px;
+   border-radius: 10px;
 }
 
 input[type=text], select {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 25%;
     display: inline-block;
     border: 2px solid;
-    border-radius: 4px;
+    border-radius: 10px;
     box-sizing: border-box;
     font-family: 'MedievalSharp';
 
@@ -49,8 +84,8 @@ input[type=submit] {
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
-    border-radius: 4px;
+    border-top: 15px;
+    border-radius: 10px;
     cursor: pointer;
 
 }
@@ -61,5 +96,4 @@ input[type=submit]:hover {
 #gameInput {
   font-family: 'MedievalSharp';
   text-align: center;
-  font-size: 14px;
 }
