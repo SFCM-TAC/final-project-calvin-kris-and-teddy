@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 var xPosition = 2;
 var yPosition = 1;
 var direction = "";
@@ -61,10 +69,13 @@ document.addEventListener('keypress', function (e) {
 function updatePage(){
   if ((xPosition == 0 && yPosition == 0) || (xPosition == 0 && yPosition == 1) || (xPosition == 0 && yPosition == 2) || (xPosition == 0 && yPosition == 3) || (xPosition == 0 && yPosition == 8) || (xPosition == 1 && yPosition == 0) || (xPosition == 1 && yPosition == 8) || (xPosition == 4 && yPosition == 2) || (xPosition == 5 && yPosition == 1) || (xPosition == 6 && yPosition == 0) || (xPosition == 6 && yPosition == 1) || (xPosition == 6 && yPosition == 2) || (xPosition == 7 && yPosition == 0) || (xPosition == 7 && yPosition == 1) || (xPosition == 8 && yPosition == 0) || (xPosition == 8 && yPosition == 1) || (xPosition == 8 && yPosition == 2)){
     //ocean
+
+
     document.getElementById("gameInput").innerHTML = "Treading water a mile out from shore, you wonder why the hell you decided to swim out into the ocean.";
   }else if ((xPosition == 1 && yPosition == 1) || (xPosition == 1 && yPosition == 2) || (xPosition == 1 && yPosition == 4) || (xPosition == 2 && yPosition == 0) || (xPosition == 3 && yPosition == 0) || (xPosition == 3 && yPosition == 1) || (xPosition == 3 && yPosition == 2) || (xPosition == 4 && yPosition == 0) || (xPosition == 4 && yPosition == 1) || (xPosition == 4 && yPosition == 3) || (xPosition == 4 && yPosition == 8) || (xPosition == 5 && yPosition == 0) || (xPosition == 5 && yPosition == 3) || (xPosition == 5 && yPosition == 8) || (xPosition == 6 && yPosition == 3) || (xPosition == 7 && yPosition == 2) || (xPosition == 8 && yPosition == 3) || (xPosition == 8 && yPosition == 5) || (xPosition == 8 && yPosition == 6) || (xPosition == 8 && yPosition == 7) || (xPosition == 8 && yPosition == 8)){
     //shore
     document.getElementById("gameInput").innerHTML = "Waves crash on the gravel beach as seagulls pick apart clam shells. The air is bracing and smells of dried kelp and sea water.";
+    sound();
   }else if ((xPosition == 2 && yPosition == 2) || (xPosition == 2 && yPosition == 3) || (xPosition == 3 && yPosition == 4) || (xPosition == 4 && yPosition == 4) || (xPosition == 5 && yPosition == 6) || (xPosition == 6 && yPosition == 5)){
     //plains
     document.getElementById("gameInput").innerHTML = "You're in the plains!!!";
