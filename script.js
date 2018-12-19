@@ -144,10 +144,12 @@ function updatePage(){
   }else if (xPosition == 8 && yPosition == 4){
     //coastal city
     enemyClass = "thieves";
+    title();
     document.getElementById("gameInput").innerHTML = "That city's full of elves who speak hungarian! Inn't that wild!?";
   }else if (xPosition == 2 && yPosition == 5){
     //mountain city
     enemyClass = "thieves";
+    title();
     document.getElementById("gameInput").innerHTML = "It was not easy to get here. Too bad this towns just full of old dudes in the snow!!!";
   }else if (xPosition == 6 && yPosition == 7){
     //boss tile
@@ -160,6 +162,7 @@ function updatePage(){
     document.getElementById("gameInput").innerHTML = "Woah, this's a spooky island!!!";
   }else if (xPosition == 5 && yPosition == 5){
     //lake
+    title();
     document.getElementById("gameInput").innerHTML = "That lake sure has a bunch of crud in it!!!";
   }else{
     //out to sea

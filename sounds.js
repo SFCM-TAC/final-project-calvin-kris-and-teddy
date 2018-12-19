@@ -8,22 +8,25 @@
 // synth.triggerAttackRelease('C4', '8n')
 function title(){
 var player = new Tone.Player("music/Opening title.mp3").toMaster();
-player.autostart = true;}
+player.autostart = true;
+}
 console.log("player");
 
 function goblin(){
   var player = new Tone.Player("music/Goblin.mp3").toMaster();
-  player.autostart = true;}
+  player.autostart = true;
 }
+
 
 function travel(){
   var player = new Tone.Player("music/Travel.mp3").toMaster();
-  player.autostart = true;}
+  player.autostart = true;
 }
+
 
 function treasure(){
   var player = new Tone.Player("music/Treasure.mp3").toMaster();
-  player.autostart = true;}
+  player.autostart = true;
 }
 
 function sound() {
